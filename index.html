@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	
+	<!-- Place this data between the <head> tags of your website -->
+	<title>Festival Films en plein air</title>
+	<meta name="description" content="Découverte de films d'auteur à Paris au parc Monceau" />
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" value="Découverte de films d'auteur à Paris au parc Monceau">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Festival Films en plein air" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://www.example.com/" />
+	<meta property="og:image" content="http://example.com/image.jpg" />
+	<meta property="og:description" content="Découverte de films d'auteur à Paris au parc Monceau" />
+
+	<!-- Responsive meta tag -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- BootstrapCDN CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- stylesheet -->
+	<link rel="stylesheet" type="text/css" href="src/style.css" />
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+
+
+ </head>
+ <body>
+
+	<!-- Header -->
+	<header>
+		<div class="container">
+				<div class="row">
+					<div class="col-10 padding-0"><h1 class="titre_accueil_festival">Festival Films en plein air </h1></div>
+					<div class="col-2 text-right padding-0 p-icone" name="icone"><a href="#accueil_icone"><img src="src/assets/icone.svg" class="img-fluid"  alt="icône accueil"/></a></div>
+				</div>
+		</div>
+	</header>
+
+
+		<!-- Section 1 - Presentation -->
+		<section id="section_one">
+			<div class="container">
+			    <div class="row">
+			    	<div class="col-xl-12 image-centrale">
+				    		<div class="row">
+				    			<div class="offset-7 col-sm-4 col-md-4 col-lg-4 col-xl-4 fond-secondaire">
+				    				<p class="texte_presentation  d-none d-md-block ">À partir du 5 jusqu'au 8 août se déroulera la projection de plusieurs films d'auteur au parc Monceau à Paris grâce au lancement de la première édition du festival de films par l'association Les Films de plein air. Venez découvrir notre programmation de films d'auteur et profitez du beau temps seul où à plusieurs et cela gratuitement ! N'oubliez pas de réserver votre/vos places dans la section séance en bas de la page. Nous vous attendons nombreux.</p>
+				    			</div>
+				    		</div>
+			    	</div>
+			    	<div class="col-12 padding-0">
+			    		<p class="texte_presentation d-block d-md-none">À partir du 5 jusqu'au 8 août se déroulera la projection de plusieurs films d'auteur au parc Monceau à Paris grâce au lancement de la première édition du festival de films par l'association Les Films de plein air. Venez découvrir notre programmation de films d'auteur et profitez du beau temps seul où à plusieurs et cela gratuitement ! N'oubliez pas de réserver votre/vos places dans la section séance en bas de la page. Nous vous attendons nombreux.</p>
+			    	</div>
+			    </div>
+	     	</div>
+		</section>
+	<!-- Section 2 - session and provisional registration -->
+	<section id="seances_inscription">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 padding-0"><h1 class="titre_seances">Les séances </h1></div>
+				<div class="col-12 fondblanc"> 
+					<div class="row">
+						<div class="onglet col-12 padding-0">
+							<ul class="nav" id="myTab" role="tablist">
+								<li class="nav-item"><a class="nav-link active" id="avenir-tab" data-toggle="tab" href="#avenir" role="tab" aria-controls="avenir" aria-selected="true"><span class="custom_tab_film">À venir</span></a></li>
+								<li class="nav-item"><a class="nav-link" id="dejapasse-tab" data-toggle="tab" href="#dejapasse" role="tab" aria-controls="dejapasse" aria-selected="false"><span class="custom_tab_film">Déjà passé</span></a></li>
+							</ul>
+							<hr class="line_decoration"> <!-- line decoration -->
+							<div class="tab-content" id="myTabContent">
+								<div class="tab-pane active" id="avenir"> <!-- list of films in slider -->
+									<div id="carouselExampleFade" class="carousel slide carousel-fade" data-interval= "false" data-ride="carousel">
+									  <div class="carousel-inner">
+									    <div class="carousel-item active d-flex justify-content-around"> <!-- 3's layout cards -->
+									        <div class="card-deck col-xl-10">
+											  <div class="card">  <!-- Pulp Fiction -->
+											  	<h4 class="card-title">Lundi, 5 août 18H</h4>
+											    <img src="src/assets/pulp.png" class="card-img-top" alt="Pulp Fiction">
+											    <div class="card-body padding-0">
+											      <h6 class="card-title">Pulp Fiction (1996)</h6>
+											      <p class="card-text">L'odyssée sanglante et burlesque de petits malfrats dans la jungle de Hollywood à travers trois histoires qui s'entremêlent. Dans un restaurant, un couple de jeunes braqueurs, Pumpkin et Yolanda, discutent des risques que comporte leur activité. Deux truands, Jules Winnfield et son ami Vincent Vega, qui revient d'Amsterdam, ont pour mission de récupérer une mallette au contenu mystérieux et de la rapporter à Marsellus Wallace.</p>
+											      <p class="voir_plus"><a href="../Prototype/src/film_pulp.html"><span class="custom_voir_plus">voir plus...</span></a></p>
+											      <p class="places_dispo">? places disponibles</p>
+											    </div>
+											  </div>
+											  <div class="card memento d-none d-md-block"> <!-- Memento -->  <!-- Hide on XS SM -->
+											  	<h4 class="card-title">Lundi, 5 août 20H</h4>
+											    <img src="src/assets/memento.png" class="card-img-top" alt="Memento">
+											    <div class="card-body padding-0">
+											      <h6 class="card-title">Memento (2000)</h6>
+											      <p class="card-text">Leonard Shelby ne porte que des costumes de grands couturiers et ne se déplace qu'au volant de sa Jaguar. En revanche, il habite dans des motels miteux et règle ses notes avec d'épaisses liasses de billets. Leonard n'a qu'une idée en tête : traquer l'homme qui a violé et assassiné sa femme afin de se venger. Sa recherche du meurtrier est rendue plus difficile par le fait qu'il souffre d'une forme rare et incurable d'amnésie.</p>
+											      <p class="voir_plus"><a href=""><span class="custom_voir_plus">voir plus...</span></a></p>
+											      <p class="places_dispo">? places disponibles</p>
+											    </div>
+											  </div>
+											  <div class="card donnie d-none d-lg-block">  <!-- Donnie Darko --> <!--hide on MD -->
+											  	<h4 class="card-title">Lundi, 5 août 22H</h4>
+											    <img src="src/assets/donnie.png" class="card-img-top" alt="Donnie darko">
+											    <div class="card-body padding-0">
+											      <h6 class="card-title">Donnie Darko (2001)</h6>
+											      <p class="card-text">Donnie Darko est un adolescent de seize ans pas comme les autres. Intelligent et doté d'une grande imagination, il a pour ami Frank, une créature que lui seul peut voir et entendre.Lorsque Donnie survit par miracle à un accident, Frank lui propose un étrange marché. La fin du monde approche et ce dernier doit accomplir sa destinée.</p>
+											      <p class="voir_plus"><a href=""><span class="custom_voir_plus">voir plus...</span></a></p>
+											      <p class="places_dispo">? places disponibles</p>
+											    </div>
+											  </div>
+											</div>
+									    </div>
+									    <div class="carousel-item d-flex justify-content-around"> <!-- 3's layout cards -->
+									        <div class="card-deck col-xl-10">
+											  <div class="card">  <!-- Avatar -->
+											  	<h4 class="card-title">Mardi, 6 août 18H</h4>
+											    <img src="src/assets/avatar.png" class="card-img-top" alt="Pulp Fiction">
+											    <div class="card-body padding-0">
+											      <h6 class="card-title">Avatar (2009)</h6>
+											      <p class="card-text">Malgré sa paralysie, Jake Sully, un ancien marine immobilisé dans un fauteuil roulant, est resté un combattant au plus profond de son être. Il est recruté pour se rendre à des années-lumière de la Terre, sur Pandora, où de puissants groupes industriels exploitent un minerai rarissime destiné à résoudre la crise énergétique sur Terre.</p>
+											      <p class="voir_plus"><a href=""><span class="custom_voir_plus">voir plus...</span></a></p>
+											      <p class="places_dispo">? places disponibles</p>
+											    </div>
+											  </div>
+											  <div class="card Fight d-none d-md-block"> <!-- Fight -->  <!-- Hide on XS SM -->
+											  	<h4 class="card-title">Mardi, 6 août 20H</h4>
+											    <img src="src/assets/fight.png" class="card-img-top" alt="Fight">
+											    <div class="card-body padding-0">
+											      <h6 class="card-title">Fight (1999)</h6>
+											      <p class="card-text">Jack est un jeune expert en assurance insomniaque, désillusionné par sa vie personnelle et professionnelle. Lorsque son médecin lui conseille de suivre une thérapie afin de relativiser son mal-être, il rencontre dans un groupe d'entraide Marla avec qui il parvient à trouver un équilibre.</p>
+											      <p class="voir_plus"><a href=""><span class="custom_voir_plus">voir plus...</span></a></p>
+											      <p class="places_dispo">? places disponibles</p>
+											    </div>
+											  </div>
+											  <div class="card drive d-none d-lg-block">  <!-- Drive --> <!--hide on MD -->
+											  	<h4 class="card-title">Mardi, 6 août 22H</h4>
+											    <img src="src/assets/drive.png" class="card-img-top" alt="Drive">
+											    <div class="card-body padding-0">
+											      <h6 class="card-title">Drive (2011)</h6>
+											      <p class="card-text">Un jeune homme solitaire, The Driver, conduit le jour à Hollywood pour le cinéma en tant que cascadeur et la nuit pour des truands. Ultra professionnel et peu bavard, il a son propre code de conduite. Jamais il n'a pris part aux crimes de ses employeurs autrement qu'en conduisant - et au volant, il est le meilleur !</p>
+											      <p class="voir_plus"><a href=""><span class="custom_voir_plus">voir plus...</span></a></p>
+											      <p class="places_dispo">? places disponibles</p>
+											    </div>
+											  </div>
+											</div>
+									    </div>
+									    <div class="carousel-item d-flex justify-content-around"> <!-- 3's layout cards -->
+									        <div class="card-deck col-xl-10">
+											  <div class="card">  <!-- Apocalypse Now -->
+											  	<h4 class="card-title">Mercredi, 7 août 18H</h4>
+											    <img src="src/assets/apocalypse.png" class="card-img-top" alt="Apocalypse">
+											    <div class="card-body padding-0">
+											      <h6 class="card-title">Apocalypse Now (2009)</h6>
+											      <p class="card-text">Pendant la guerre du Viêt Nam, les services secrets militaires américains confient au capitaine Willard la mission de retrouver et d’exécuter le colonel Kurtz dont les méthodes sont jugées « malsaines ». Celui-ci, établi au-delà de la frontière avec le Cambodge, a pris la tête d’un groupe d’indigènes et mène des opérations contre l’ennemi avec une sauvagerie terrifiante.</p>
+											      <p class="voir_plus"><a href=""><span class="custom_voir_plus">voir plus...</span></a></p>
+											      <p class="places_dispo">? places disponibles</p>
+											    </div>
+											  </div>
+											  <div class="card will d-none d-md-block"> <!-- Will Hunting -->  <!-- Hide on XS SM -->
+											  	<h4 class="card-title">Mercredi, 7 août 20H</h4>
+											    <img src="src/assets/will.png" class="card-img-top" alt="Will Hunting">
+											    <div class="card-body padding-0">
+											      <h6 class="card-title">Will Hunting (1998)</h6>
+											      <p class="card-text">Will Hunting est un authentique génie mais également un rebelle aux élans imprévisibles. Il est né dans le quartier populaire de South Boston et a arrêté très tôt ses études, refusant le brillant avenir que pouvait lui procurer son intelligence. Il vit désormais entouré d'une bande de copains et passe son temps dans les bars a chercher la bagarre. C'est alors que ses dons prodigieux en mathématiques attirent l'attention du professeur Lambeau, du Massachusetts Institute of Technology.</p>
+											      <p class="voir_plus"><a href=""><span class="custom_voir_plus">voir plus...</span></a></p>
+											      <p class="places_dispo">? places disponibles</p>
+											    </div>
+											  </div>
+											  <div class="card million d-none d-lg-block">  <!-- Million Dollar Babe --> <!--hide on MD -->
+											  	<h4 class="card-title">Mercredi, 7 août 22H</h4>
+											    <img src="src/assets/million.png" class="card-img-top" alt="Drive">
+											    <div class="card-body padding-0">
+											      <h6 class="card-title">Million Dollar Babe (2005)</h6>
+											      <p class="card-text">Rejeté depuis longtemps par sa fille, l'entraîneur Frankie Dunn s'est replié sur lui-même et vit dans un désert affectif. Le jour où Maggie Fitzgerald, 31 ans, pousse la porte de son gymnase à la recherche d'un `coach', elle n'amène pas seulement avec elle sa jeunesse et sa force, mais aussi une histoire jalonnée d'épreuves et une exigence, vitale et urgente : monter sur le `ring', entraînée par Frankie, et enfin concrétiser le rêve d'une vie.</p>
+											      <p class="voir_plus"><a href=""><span class="custom_voir_plus">voir plus...</span></a></p>
+											      <p class="places_dispo">? places disponibles</p>
+											    </div>
+											  </div>
+											</div>
+									    </div>
+									    <div class="carousel-item d-flex justify-content-around"> <!-- 3's layout cards -->
+									        <div class="card-deck col-xl-10">
+											  <div class="card">  <!-- Parrain -->
+											  	<h4 class="card-title">Jeudi, 8 août 18H</h4>
+											    <img src="src/assets/parrain.png" class="card-img-top" alt="Le Parrain">
+											    <div class="card-body padding-0">
+											      <h6 class="card-title">Le parrain (1973)</h6>
+											      <p class="card-text">En 1945, à New York, les Corleone sont une des 5 familles de la mafia. Don Vito Corleone, `parrain' de cette famille, marie sa fille à un bookmaker. Sollozzo, `parrain' de la famille Tattaglia, propose à Don Vito une association dans le trafic de drogue, mais celui-ci refuse. Sonny, un de ses fils, y est quant à lui favorable. Afin de traiter avec Sonny, Sollozzo tente de faire tuer Don Vito, mais celui-ci en réchappe.</p>
+											      <p class="voir_plus"><a href=""><span class="custom_voir_plus">voir plus...</span></a></p>
+											      <p class="places_dispo">? places disponibles</p>
+											    </div>
+											  </div>
+											  <div class="card shutter d-none d-md-block"> <!-- Shutter island -->  <!-- Hide on XS SM -->
+											  	<h4 class="card-title">Jeudi, 8 août 20H</h4>
+											    <img src="src/assets/shutter.png" class="card-img-top" alt="Shutter Island">
+											    <div class="card-body padding-0">
+											      <h6 class="card-title">Shutter Island (2010)</h6>
+											      <p class="card-text">L'invraisemblable évasion d'une meurtrière rusée amène le marshal Teddy Daniels et son nouveau partenaire à l'hôpital Ashecliffe, un asile psychiatrique situé sur une île lointaine et balayée par les vents. Il apparaît que la femme a disparu d'une chambre fermée à clef et il y a des indices d'actes effroyables commis au sein de l'hôpital. Alors que l'enquête piétine, Teddy réalise qu'il doit faire face à ses propres démons s'il veut quitter l'île en vie.</p>
+											      <p class="voir_plus"><a href=""><span class="custom_voir_plus">voir plus...</span></a></p>
+											      <p class="places_dispo">? places disponibles</p>
+											    </div>
+											  </div>
+											  <div class="card Into the Wild d-none d-lg-block">  <!-- Into the Wild --> <!--hide on MD -->
+											  	<h4 class="card-title">Jeudi, 8 août 22H</h4>
+											    <img src="src/assets/into.png" class="card-img-top" alt="Into the Wild">
+											    <div class="card-body padding-0">
+											      <h6 class="card-title">Into the Wild (2008)</h6>
+											      <p class="card-text">Tout juste diplômé, Christopher McCandless, 22 ans, est promis à un brillant avenir. Pourtant, tournant le dos à l'existence confortable et sans surprise qui l'attend, le jeune homme décide de prendre la route en laissant tout derrière lui. Des champs de blé du Dakota aux flots tumultueux du Colorado, en passant par les communautés hippies de Californie, Christopher va rencontrer des personnages hauts en couleur. Chacun, à sa manière, va façonner sa vision de la vie et des autres.</p>
+											      <p class="voir_plus"><a href=""><span class="custom_voir_plus">voir plus...</span></a></p>
+											      <p class="places_dispo">? places disponibles</p>
+											    </div>
+											  </div>
+											</div>
+									    </div>  
+									  </div>
+									  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+									    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									    <span class="sr-only">Précédent</span>
+									  </a>
+									  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+									    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+									    <span class="sr-only">Suivant</span>
+									  </a>
+									</div>
+								</div>
+								<div class="tab-pane" id="dejapasse"><p class="aucun_film d-flex justify-content-center">Aucun film actuellement</p> <!-- list of films ended -->
+								</div> 
+							</div>
+							<hr class="line_decoration"> <!-- line decoration -->
+						</div>
+
+						<div class="inscription offset-xl-1 col-xl-10 fondblanc">  <!-- Sign In -->
+							<h4 class="padding_text_inscription">Inscription</h4>
+							<form>
+								<div class="container "> 
+									<div class="row">
+										<div class="form-group row col-md-6 col-lg-6 col-xl-6">
+											<label for="colFormLabel" class="col-md-3 col-lg-2 col-xl-2 col-form-label">Prénom</label>
+											<div class="col-md-9 col-lg-10 col-xl-10">
+											 <input type="text" class="form-control inscription_npe" id="colFormLabel" required>
+											</div>
+
+											<label for="colFormLabel" class="col-md-3 col-lg-2 col-xl-2 col-form-label">Nom</label>
+											<div class="col-md-9 col-lg-10 col-xl-10">
+											<input type="text" class="form-control inscription_npe" id="colFormLabel" required>
+											</div>
+											
+											<label for="colFormLabel" class="col-md-3 col-lg-2 col-xl-2 col-form-label">Email</label>
+											<div class="col-md-9 col-lg-10 col-xl-10">
+											<input type="email" class="form-control inscription_npe" id="colFormLabel" required>
+											</div>
+										</div>
+
+										<div class="form-group row col-md-6 col-lg-6 col-xl-6 padding_form_inscription">
+											<label for="colFormLabel" class="col-md-3 col-lg-2 col-xl-2 col-form-label">Séance</label>
+										    	<select class="custom-select col-md-9 col-lg-10 col-xl-10 " id="inlineFormCustomSelect" required>
+												    <option value="">Sélection</option>
+												    <option value="1">Pulp Fiction</option>
+												    <option value="2">Memento</option>
+												    <option value="3">Donnie Darko</option>
+												    <option value="4">Avatar</option>
+												    <option value="5">Fight</option>
+												    <option value="6">Drive</option>	
+												    <option value="7">Apocalypse Now</option>
+												    <option value="8">Will Hunting</option>
+												    <option value="9">Million Dollar Babe</option>
+												    <option value="10">Le Parrain</option>
+												    <option value="11">Shutter Island</option>
+												    <option value="12">Into The Wild</option>						    
+												</select>
+										    <label for="colFormLabel" class="col-md-3 col-lg-2 col-xl-2 col-form-label">Places</label>
+											    <select class="custom-select col-md-9 col-lg-10 col-xl-10 " id="inlineFormCustomSelect" required>
+												    <option value="">Sélection</option>
+												    <option value="1">1</option>
+												    <option value="2">2</option>
+												    <option value="3">3</option>
+												    <option value="3">4</option>
+												    <option value="3">5</option>
+												</select>
+										</div>
+									</div>
+									<div class="d-flex justify-content-center"> <button type="submit" class="btn btn-primary col-4 col-md-3 col-lg-3 col-xl-3">S'inscrire</button>
+			    					</div>
+			    				</div>		  
+			    			</form> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section 3 - News -->
+	<section id="Actualites">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 padding-0" ><h1 class="titre_actualites">Actualités </h1> </div>	
+					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval= "false">
+						<ol class="carousel-indicators">
+						   	<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						 </ol>
+						<div class="carousel-inner">
+						    <div class="carousel-item active">
+								<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+									<div class="row padding-0 margin_slide"> 
+										<div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 fondblanc">
+											<div class="row">
+												<h5 class="col-sm-12 col-md-12 col-lg-12 col-xl-12 titre_article_actualite">Ouverture du festival</h5>
+												<div class=" col-2 col-sm-2 col-md-2 col-lg-4 col-xl-4 padding-0 custom_article custom_image">
+													<img src="src/assets/image_actu_1.jpg" alt="Parc Monceau" class="img-fluid">
+												</div>
+												<div class=" col-8 col-sm-8 col-md-8 col-lg-7 col-xl-7">
+													<p class="custom_text">La date de l'ouverture du festival approche, reservez vos places.<br/>
+													<span class="custom_voir_plus"><a href="src/actualite_one.html">voir plus...</a></span></p>
+												</div>
+											</div>
+										</div>
+										<div class="d-none d-lg-block offset-lg-2 offset-xl-2 col-md-5 col-lg-5 col-xl-5 fondblanc">
+											<div class="row">
+												<h5 class="col-md-12 col-lg-12 col-xl-12  titre_article_actualite">Ouverture du festival</h5>
+												<div class="col-md-4 col-lg-4 col-xl-4 padding-0 custom_article">
+													<img src="src/assets/image_actu_1.jpg" alt="Parc Monceau" class="img-fluid">
+												</div>
+												<div class="col-md-7 col-lg-7 col-xl-7">
+													<p class="custom_text">La date de l'ouverture du festival approche, reservez vos places.<br/>
+													<span class="custom_voir_plus"><a href="">voir plus...</a></span></p>
+												</div>
+											</div>
+										</div>
+									</div>	
+								</div>
+						    </div>
+						    <div class="carousel-item">
+								<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+									<div class="row padding-0 margin_slide"> 
+										<div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 fondblanc">
+											<div class="row">
+												<h5 class="col-sm-12 col-md-12 col-lg-12 col-xl-12 titre_article_actualite">Ouverture du festival</h5>
+												<div class=" col-2 col-sm-2 col-md-2 col-lg-4 col-xl-4 padding-0 custom_article custom_image">
+													<img src="src/assets/image_actu_1.jpg" alt="Parc Monceau" class="img-fluid">
+												</div>
+												<div class=" col-8 col-sm-8 col-md-8 col-lg-7 col-xl-7">
+													<p class="custom_text">La date de l'ouverture du festival approche, reservez vos places.<br/>
+													<span class="custom_voir_plus"><a href="">voir plus...</a></span></p>
+												</div>
+											</div>
+										</div>
+										<div class="d-none d-lg-block offset-lg-2 offset-xl-2 col-md-5 col-lg-5 col-xl-5 fondblanc">
+											<div class="row">
+												<h5 class="col-md-12 col-lg-12 col-xl-12  titre_article_actualite">Ouverture du festival</h5>
+												<div class="col-md-4 col-lg-4 col-xl-4 padding-0 custom_article">
+													<img src="src/assets/image_actu_1.jpg" alt="Parc Monceau" class="img-fluid">
+												</div>
+												<div class="col-md-7 col-lg-7 col-xl-7">
+													<p class="custom_text">La date de l'ouverture du festival approche, reservez vos places.<br/>
+													<span class="custom_voir_plus"><a href="">voir plus...</a></span></p>
+												</div>
+											</div>
+										</div>
+									</div>	
+								</div>
+						    </div>
+						    <div class="carousel-item">
+								<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+									<div class="row padding-0 margin_slide"> 
+										<div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 fondblanc">
+											<div class="row">
+												<h5 class="col-sm-12 col-md-12 col-lg-12 col-xl-12 titre_article_actualite">Ouverture du festival</h5>
+												<div class=" col-2 col-sm-2 col-md-2 col-lg-4 col-xl-4 padding-0 custom_article custom_image">
+													<img src="src/assets/image_actu_1.jpg" alt="Parc Monceau" class="img-fluid">
+												</div>
+												<div class=" col-8 col-sm-8 col-md-8 col-lg-7 col-xl-7">
+													<p class="custom_text">La date de l'ouverture du festival approche, reservez vos places.<br/>
+													<span class="custom_voir_plus"><a href="">voir plus...</a></span></p>
+												</div>
+											</div>
+										</div>
+										<div class="d-none d-lg-block offset-lg-2 offset-xl-2 col-md-5 col-lg-5 col-xl-5 fondblanc">
+											<div class="row">
+												<h5 class="col-md-12 col-lg-12 col-xl-12  titre_article_actualite">Ouverture du festival</h5>
+												<div class="col-md-4 col-lg-4 col-xl-4 padding-0 custom_article">
+													<img src="src/assets/image_actu_1.jpg" alt="Parc Monceau" class="img-fluid">
+												</div>
+												<div class="col-md-7 col-lg-7 col-xl-7">
+													<p class="custom_text">La date de l'ouverture du festival approche, reservez vos places.<br/>
+													<span class="custom_voir_plus"><a href="">voir plus...</a></span></p>
+												</div>
+											</div>
+										</div>
+									</div>	
+								</div>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</section> 
+
+
+	<!-- Footer -->
+	<footer>
+		<div class="bg_footer">  <!-- To take all space in background -->
+			<div class="container">
+				<div class="row">
+					<div class="col-12"><h5 class="titre_footer">CONTACT</h5></div>		
+					<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 text_footer"><p>35 Boulevard de Courcelles, 75008</p> <p>Code postale: 75008</p> <p>Ville: Paris</p> <p>Mail: festivalfilms@assoc.com</p></div>
+					<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+						    <div id="map-container-google-1" class="z-depth-1-half map-container">
+							  <iframe src="https://www.google.com/maps/d/embed?mid=1eRsbTJ5dUTHfZtLnO4qjq62NkUo" class="map_height" frameborder="0"
+							    allowfullscreen>
+							  </iframe>
+							</div>
+					</div>
+					<hr class="col-xl-12 line_decoration_footer"> <!-- line decoration -->
+					<div class="col-xl-12 text_footer">Mentions légales.....</div>
+				</div>
+
+			</div>
+			
+		</div>
+					
+		
+	</footer>
+
+	
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ </body>
+</html>

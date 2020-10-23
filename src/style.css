@@ -1,0 +1,482 @@
+body {
+  padding-top: 43px;
+  background-image: url("assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h4 {
+  font-family: "Patua One", cursive;
+  color: #012455;
+}
+
+/* Header */
+.titre_accueil_festival {
+  font-size: 19px;
+  font-family: "Patua One", cursive;
+  color: white;
+  padding-top: 11px;
+}
+.p-icone {
+  padding-top: 7px !important;
+}
+/*Section 1 */
+.fond-secondaire {
+  background: rgba(0, 0, 0, 0.7);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.image-centrale {
+  background: url(assets/presentation.png);
+  margin-top: 10px;
+  background-size: cover;
+}
+.texte_presentation {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  word-wrap: break-word;
+  font-size: 14px;
+}
+/*Section 2 */
+/*tab*/
+.titre_seances {
+  font-size: 25px;
+  font-family: "Patua One", cursive;
+  color: white;
+  padding-top: 25px;
+}
+.fondblanc {
+  background-color: white;
+}
+hr {
+  margin: 0px;
+  border: 1px solid #01173a;
+  background-color: #01173a;
+}
+a {
+  font-family: "Patua One", cursive;
+  color: #012455;
+}
+a.active .custom_tab_film {
+  border-bottom: 2px solid #01173a;
+  color: #012455;
+}
+/*Films*/
+/*Films - right arrow slider*/
+.carousel-control-prev {
+  width: 10%;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fffe5e5e5' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  height: 100%;
+  width: 100%;
+} /* Change color icon left */
+/*Films - right arrow slider*/
+.carousel-control-next {
+  width: 10%;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fffe5e5e5' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  height: 100%;
+  width: 100%;
+} /* Change color icon right */
+/*Custom cards*/
+.card-title {
+  padding-top: 10px;
+  margin-bottom: 0px;
+  font-family: "Patua One", cursive;
+  color: #012455;
+}
+.card-text {
+  font-size: 13px;
+  color: #012455;
+}
+.voir_plus a {
+  text-decoration: none;
+}
+.custom_voir_plus {
+  font-family: "Patua One", cursive;
+  color: #39b54a !important;
+}
+.places_dispo {
+  font-family: "Patua One", cursive;
+  color: #012455;
+  margin-bottom: 0px;
+}
+.card {
+  border: none;
+}
+.card-deck {
+  width: 85%;
+}
+.aucun_film {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: "Patua One", cursive;
+  color: #012455;
+}
+/*Inscription*/
+.padding_text_inscription {
+  padding-left: 20px;
+  margin-top: 2%;
+}
+.padding_form_inscription {
+  padding-left: 20px;
+}
+label {
+  font-family: "Patua One", cursive;
+  color: #012455;
+}
+.inscription_npe {
+  margin-top: 2%;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #39b54a !important;
+}
+button {
+  margin-bottom: 20px;
+}
+.form-control {
+  background-color: #ebebeb;
+  height: 65%;
+  border-radius: 0px;
+  border-color: black;
+}
+.custom-select {
+  background-color: #ebebeb;
+  height: 24%;
+  margin-top: 1.5%;
+  padding-top: 0px;
+  border-radius: 0px;
+  border-color: black;
+}
+/*Actualités*/
+.titre_actualites {
+  font-size: 25px;
+  font-family: "Patua One", cursive;
+  color: white;
+  padding-top: 25px;
+}
+.titre_article_actualite {
+  margin: 2%;
+  font-family: "Patua One", cursive;
+}
+.custom_article {
+  margin-left: 5%;
+}
+.custom_image {
+  margin-bottom: 5%;
+}
+.custom_text {
+  margin-left: 2%;
+  margin-bottom: 3%;
+  word-wrap: break-word;
+  font-size: 12px;
+}
+.custom_text a {
+  text-decoration: none;
+  color: #39b54a !important;
+}
+.voir_plus_article {
+  font-size: 9px;
+  margin-left: 2%;
+  color: #39b54a;
+  font-weight: bold;
+}
+.carousel-indicators > li {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+}
+li.active {
+  background-color: #39b54a;
+}
+.margin_slide {
+  margin-bottom: 70px;
+}
+/*Footer*/
+.bg_footer {
+  background-color: #03142d;
+}
+.titre_footer {
+  color: #3870be;
+  font-family: "Patua One", cursive;
+  margin-top: 3%;
+}
+#map-container-google-8 {
+  width: 100%;
+}
+.map-container iframe {
+  width: 100%;
+}
+.map_height {
+  height: 300px;
+}
+.text_footer {
+  color: #3870be;
+  word-wrap: break-word;
+}
+.line_decoration_footer {
+  border: 1px solid #3870be;
+  margin-top: 1%;
+}
+
+@media (min-width: 576px) {
+  /* Small devices (smartphone) SM */
+  .container {
+    max-width: 540px;
+  }
+  /*header*/
+  .titre_accueil_festival {
+    font-size: 25px;
+  }
+  .p-icone {
+    padding-top: 12px !important;
+  }
+  /*section 1*/
+  .texte_presentation {
+    color: white;
+    word-wrap: break-word;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .fond-secondaire {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  /*Section 2 */
+  /*Films*/
+  /*Custom cards*/
+
+  /*Actualités*/
+  .titre_article_actualite {
+    margin: 2%;
+    font-family: "Patua One", cursive;
+  }
+  .custom_article {
+    margin-left: 5%;
+  }
+  .custom_text {
+    margin-left: 2%;
+    margin-bottom: 3%;
+    word-wrap: break-word;
+    font-size: 12px;
+  }
+  .voir_plus_article {
+    font-size: 11px;
+    margin-left: 2%;
+    color: #39b54a;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Medium	devices (tablet) MD  */
+  /*header*/
+  .container {
+    max-width: 720px;
+  }
+  .titre_accueil_festival {
+    font-size: 27px;
+  }
+  .p-icone {
+    padding-top: 15px !important;
+  }
+  /*section 1*/
+  .texte_presentation {
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    word-wrap: break-word;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .fond-secondaire {
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  /*Section 2 */
+  /*Films*/
+  /*Custom cards*/
+  .card-deck {
+    width: 85%;
+  }
+  /*Actualités*/
+  .titre_article_actualite {
+    margin: 1%;
+    font-size: 16px;
+  }
+  .custom_article {
+    margin-left: 5%;
+  }
+  .custom_text {
+    margin-bottom: 0%;
+    word-wrap: break-word;
+    font-size: 16px;
+  }
+  .voir_plus_article {
+    font-size: 12px;
+    margin-left: 1%;
+    color: #39b54a;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Large devices (desktop) LG */
+  /*header*/
+  .container {
+    max-width: 960px;
+  }
+  .titre_accueil_festival {
+    font-size: 30px;
+  }
+  .p-icone {
+    padding-top: 17px !important;
+  }
+  /*section 1*/
+  .texte_presentation {
+    color: white;
+    word-wrap: break-word;
+    font-size: 14px;
+    padding: 15px;
+  }
+  .fond-secondaire {
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  /*Section 2 */
+  /*Films*/
+  /*Custom cards*/
+  .card-deck {
+    width: 85%;
+  }
+  /*Actualités*/
+  .titre_article_actualite {
+    margin: 1%;
+    font-size: 16px;
+  }
+  .custom_article {
+    margin-left: 5%;
+  }
+  .custom_text {
+    margin-left: 2%;
+    margin-bottom: 0%;
+    word-wrap: break-word;
+    font-size: 14px;
+  }
+  .voir_plus_article {
+    font-size: 12px;
+    margin-left: 1%;
+    color: #39b54a;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Extra large devices (desktop) XL */
+  /*header*/
+  .container {
+    max-width: 1170px;
+  }
+  .titre_accueil_festival {
+    font-size: 33px;
+  }
+  .p-icone {
+    padding-top: 19px !important;
+  }
+  /*section 1*/
+  .texte_presentation {
+    color: white;
+    word-wrap: break-word;
+    font-size: 15px;
+    padding: 25px;
+  }
+  .fond-secondaire {
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  /*Section 2 */
+  /*Films*/
+  /*Custom cards*/
+  .card-deck {
+    width: 100%;
+  }
+  /*Actualités*/
+  .titre_article_actualite {
+    margin: 2%;
+    font-size: 19px;
+  }
+  .custom_article {
+    margin-left: 5%;
+  }
+  .custom_image {
+    margin-bottom: 5%;
+  }
+  .custom_text {
+    margin-left: 2%;
+    margin-bottom: 1%;
+    word-wrap: break-word;
+    font-size: 16px;
+  }
+  .voir_plus_article {
+    font-size: 15px;
+    margin-left: 2%;
+    color: #39b54a;
+    font-weight: bold;
+  }
+}
+
+/* Remove padding in the col */
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/*______________________________________________________________________________________________________________*/
+
+/*Page film*/
+.video_padding {
+  padding: 0%;
+}
+.titre_scene_film {
+  font-family: "Patua One", cursive;
+  color: #012455;
+  margin-top: 5%;
+  margin-bottom: 0%;
+}
+.date_scene_film {
+  font-family: "Patua One", cursive;
+  color: #012455;
+  margin-bottom: 5%;
+}
+.description_scene {
+  color: #012455;
+}
+.width_scene_image {
+  width: 100%;
+}
+.margin_scene_image {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.margin_line_image {
+  margin-top: 3%;
+}
+.margin_contact {
+  margin-top: 5%;
+}
+.margin_place_dispo {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+/*Page actualité*/
+.image_actu_padding {
+  padding: 0%;
+}
