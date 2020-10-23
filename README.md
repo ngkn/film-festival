@@ -15,8 +15,8 @@ Website built from scratch that responds well to the models produced and the exp
 - [Technical & fonctional](https://)
 
 ## Models :triangular_ruler:
-- [Desktop](https://github.com/ngkn/film-festival/tree/main/Models/Desktop)
-- [Mobile](https://github.com/ngkn/film-festival/tree/main/Models/Mobile)
-- [Tablet](https://github.com/ngkn/film-festival/tree/main/Models/Tablet)
+- [Desktop](https://github.com/ngkn/film-festival/tree/main/docs/models/Desktop)
+- [Mobile](https://github.com/ngkn/film-festival/tree/main/docs/models/Mobile)
+- [Tablet](https://github.com/ngkn/film-festival/tree/main/docs/models/Tablet)
 
 Model designer: James Chen
