@@ -1,6 +1,6 @@
 # film-festival - mars 2019
 
-An analyze technical needs of a client for their film festival.
+An analyze technical needs of a client for his film festival.
 Website built from scratch that responds well to the models produced and the expectations of the project.
 
 ## Tech stack 💻
